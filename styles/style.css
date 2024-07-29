@@ -1,0 +1,87 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    margin: 0;
+    background-color: #f3d4e7; /* Add this line for the background color */
+}
+
+.header {
+    background-color: #071952; /* Change this to your desired color */
+    padding: 10px; /* Adjust the padding as needed */
+    color: white; /* Text color */
+}
+
+.navbar {
+    /*display: flex;*/
+}
+
+.header__menu__link{
+    font-family: 'Krona One', sans serif;
+    color: white; /* Text color */
+    font-size: 24px;
+    text-decoration: none;
+    padding: 5%;
+}
+
+.header__menu__link.active {
+    background-color: #088395; /* Indica el active link */
+    border-radius: 4px; /* Bordes redondeados */
+    padding: 0px 0px; /* Optional: Padding for the active link */
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 3fr 3fr 4fr;
+    gap: 10px; /* Optional: Adjust the gap between columns */
+}
+
+.column {
+    /* border: 1px solid #ccc; /* Optional: Add borders to columns for better visibility */
+    padding: 10px;
+    font-family: 'Monserrat', sans serif;
+    font-size: 24px;
+    /* border: solid blue 10px;*/
+}
+
+.image__logo {
+    max-width: 65%;
+    height: auto;
+}
+
+.column2__input-field{
+    height: 500px;
+    width: 300px;
+}
+
+.column3__input-field{
+    height: 500px;
+    width: 300px;
+}
+
+.image__output {
+    max-width: 100%;
+    height: auto;
+}
+
+.encryptador__botones{
+    display: flex;
+    justify-content: space-between;
+    text-decoration: none;
+}
+
+.column4_area{
+    box-sizing: border-box;
+    /*border: solid blue 10px;*/
+}
+
+.boton{
+    text-decoration: none;
+
+}
+
+.footer {
+    flex: 0 0 auto;
+}
